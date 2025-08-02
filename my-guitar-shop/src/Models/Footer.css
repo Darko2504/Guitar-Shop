@@ -1,0 +1,98 @@
+.footer {
+  background: #EEEEEE;
+  color: #000;
+  display: flex;
+  justify-content: flex-end; 
+  padding: 2rem 4rem 2rem 1rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+  text-align: right;
+}
+
+.footer div {
+  flex: 1;
+}
+
+.footer h5 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.footer p {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+  color: #000;
+}
+
+.footer a {
+  display: block;
+  color: grey;
+  text-decoration: none;
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: orange;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center; 
+  gap: 1rem; 
+}
+
+.footer-logo .butterfly {
+  width: 40px; 
+  height: auto;
+  margin-left: 200px;
+  margin-bottom: 45px;
+}
+
+.footer-text p {
+  margin: 0.2rem 0; /
+}
+
+.followus {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;      
+  gap: 1rem;             
+  margin-top: 0.5rem;
+}
+
+.social-icons img {
+  width: 30px;               
+  height: 30px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+
+.copyright {
+  width: 100%;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #444;
+  padding: 1rem 0;
+  background-color: #eeeeee;
+  margin-top: 2rem;
+}
+
+
+
+
