@@ -2,10 +2,10 @@ import vibeStringImg from "../assets/VibeStrings.png";
 import butterfly from "../assets/Butterfly.png";
 import mainguitar from '../assets/orangeCircle.png'
 
-type Props = {
+interface Props  {
   brandName: string;
-  brandImage?: string;
-  description?: string; 
+  brandImage: string;
+  description: string; 
 };
 
 

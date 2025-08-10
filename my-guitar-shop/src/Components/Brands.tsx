@@ -25,21 +25,17 @@ export default function Home() {
 
   if (loading) return <p className="loading">Loading...</p>;
   if (error) return <p className="error">Error: {error.message}</p>;
-
+  const allData = data.findAllBrands;
   return (
     <div className="home-page">
       <HomePage />
 
       <div className="brands-container">
-        {data.findAllBrands.map((brand: IBrand) => (
+        {allData.map((brand: IBrand) => (
           <div
             key={brand.id}
             className="brand-item"
-            onClick={() =>
-              navigate(`/brand/${brand.id}`, {
-                state: { brandName: brand.name, brandImage: brand.image },
-              })
-            }
+            onClick={() => navigate(`/brand/${brand.id}`)}
           >
             {brand.image && (
               <img src={brand.image} alt={brand.name} className="brand-image" />
@@ -50,7 +46,7 @@ export default function Home() {
 
       <div className="divider"></div>
       <MiddleDivider />
-      
+
       <LowerHomePage />
 
       <Footer />

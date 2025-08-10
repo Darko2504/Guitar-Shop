@@ -36,6 +36,7 @@ const GET_BRAND_WITH_MODELS = gql`
       name
       origin
       image
+      categories
       models {
         id
         name
@@ -166,14 +167,7 @@ export default function BrandModels() {
               <div
                 key={model.id}
                 className="model-card"
-                onClick={() =>
-                  navigate(`/brands/${id}/models/${model.id}`, {
-                    state: {
-                      brandName: model.name,
-                      brandImage: model.image,
-                    },
-                  })
-                }
+                onClick={() => navigate(`/brands/${id}/models/${model.id}`)}
                 style={{ cursor: "pointer" }}
               >
                 <img src={model.image} alt={model.name} width={150} />

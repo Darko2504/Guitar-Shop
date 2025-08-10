@@ -1,28 +1,24 @@
-
-
-.logoTopLeft{
+.logoTopLeft {
   margin-top: 40px;
   margin-left: 20px;
 }
 
-.homePageTopRightImg{
- align-self: flex-end;
- justify-self: left;
- 
-
+.homePageTopRightImg {
+  align-self: flex-end;
+  justify-self: left;
 }
 
 .homePageTopRightImg {
-  position: absolute; 
+  position: absolute;
   top: 0;
   right: 0;
   width: 400px;
   height: 350px;
-  overflow: hidden; 
+  overflow: hidden;
   border-bottom-right-radius: 151px;
   border-bottom-left-radius: 360px;
   opacity: 1;
-  background: none; 
+  background: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,15 +27,15 @@
 .circleGuitar img {
   width: 100%;
   height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
   display: block;
 }
 
 .whiteEclipse {
   position: relative;
-  width: 100px;    
+  width: 100px;
   height: 50px;
-  width: 50px;   
+  width: 50px;
   float: right;
   margin-top: 250px;
   margin-right: 100px;
@@ -56,45 +52,40 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 15px; 
+  width: 15px;
   height: auto;
   z-index: 2;
 }
 
-
-
 .HomeTitle {
-  align-self: flex-start;  
-  justify-self: start;     
+  align-self: flex-start;
+  justify-self: start;
   text-align: left;
   margin-left: 150px;
   margin-top: 100px;
- margin-bottom: 100px;
+  margin-bottom: 100px;
 }
-
 
 .home-subtitle {
   font-family: Satoshi;
-font-weight: 700;
-font-style: Bold;
-font-size: 56px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 56px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
-.home-description, .section-description {
- font-family: Satoshi;
-font-weight: 500;
-font-style: Medium;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-color:  #666666;
-;
-  
+.home-description,
+.section-description {
+  font-family: Satoshi;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #666666;
 }
 
 .divider {
@@ -105,14 +96,12 @@ color:  #666666;
 
 .section-title {
   font-family: Satoshi;
-font-weight: 700;
-font-style: Bold;
-font-size: 44px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-
-
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 44px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
 .brands-container {
@@ -134,7 +123,7 @@ text-align: center;
 
 .brand-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .brand-image {
@@ -144,7 +133,7 @@ text-align: center;
   margin-bottom: 10px;
 }
 
-.dividerCenter{
+.dividerCenter {
   background-color: black;
   width: 100%;
   height: 400px;
@@ -153,9 +142,9 @@ text-align: center;
 
 .rectanglesDiv {
   display: flex;
-  justify-content: center;  
-  gap: 250px;               
-  margin-top: 100px;         
+  justify-content: center;
+  gap: 250px;
+  margin-top: 100px;
 }
 
 .rectangleItem {
@@ -171,15 +160,15 @@ text-align: center;
 }
 
 .rectangletext {
-  margin-top: 8px; 
-  color: white;    
-  font-size: 30px; 
+  margin-top: 8px;
+  color: white;
+  font-size: 30px;
   text-align: center;
 }
 
 .lowerHomeWrapper {
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: space-between;
   padding: 1rem;
   gap: 2rem;
@@ -189,7 +178,7 @@ text-align: center;
 .container {
   flex: 1;
   text-align: center;
-  max-width: 50%; 
+  max-width: 50%;
   margin-left: 100px;
 }
 
@@ -216,42 +205,40 @@ text-align: center;
 
 .top-image {
   position: absolute;
-  width: 350; 
+  width: 350;
   height: auto;
 }
 
 .top1 {
-  top: 35%;    
-  left: 25%;   
+  top: 35%;
+  left: 25%;
   transform: translate(-50%, -50%);
-  z-index: 2; 
+  z-index: 2;
 }
 
 .top2 {
-   top: 50%;    
+  top: 50%;
   left: 66%;
   transform: translate(-50%, -50%);
-  z-index: 3;  
+  z-index: 3;
 }
 
-
-.secondPageRightTop{
- align-self: flex-end;
- justify-self: left;
-
+.secondPageRightTop {
+  align-self: flex-end;
+  justify-self: left;
 }
 
 .orangeCircleSecondPage {
-  position: absolute; 
+  position: absolute;
   top: 0;
   right: 0;
   width: 450px;
   height: 350px;
-  overflow: hidden; 
+  overflow: hidden;
   border-bottom-right-radius: 151px;
   border-bottom-left-radius: 360px;
   opacity: 1;
-  background: none; 
+  background: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -273,35 +260,33 @@ text-align: center;
 
 .secondHomeSubtitle {
   font-family: Satoshi;
-font-weight: 700;
-font-style: Bold;
-font-size: 56px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 56px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
 .HomeTitle {
   text-align: center;
-  display: inline-block; 
-  margin: 0 auto; 
+  display: inline-block;
+  margin: 0 auto;
   margin-left: 100px;
-
 }
 
 .home-subtitle {
   font-family: Satoshi;
   font-weight: 700;
-  font-style: normal; 
+  font-style: normal;
   font-size: 56px;
-  line-height: 1; 
+  line-height: 1;
   letter-spacing: 0;
-  margin-bottom: 0.5rem; 
+  margin-bottom: 0.5rem;
 }
 
 .secondPageDesc {
-  max-width: 400px; 
+  max-width: 400px;
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.4;
@@ -316,7 +301,6 @@ text-align: center;
   border: none;
   opacity: 100%;
 }
-
 
 .guitar-container {
   padding: 20px;
@@ -341,12 +325,11 @@ text-align: center;
   border-radius: 6px;
 }
 
-
 .search-input:focus,
 .yes:focus {
-  border-color: #f0d2cd;        
+  border-color: #f0d2cd;
   background-color: #f0d2cd;
-  color:  #ff6347;
+  color: #ff6347;
   outline: none;
 }
 
@@ -380,7 +363,6 @@ text-align: center;
   margin: 2px 0;
 }
 
-
 .pagination-container {
   display: flex;
   justify-content: center;
@@ -408,7 +390,6 @@ text-align: center;
   color: #666;
   cursor: not-allowed;
 }
-
 
 .guitar-details-container {
   max-width: 800px;
@@ -448,7 +429,7 @@ text-align: center;
 }
 
 .tab-button.active {
-  background-color: #FF6347;
+  background-color: #ff6347;
   color: #fff;
 }
 
@@ -467,10 +448,9 @@ text-align: center;
   width: 200px;
   height: 200px;
   object-fit: cover;
-   border: 15px solid orange; /* bold orange border */
-  border-radius: 8px; /* optional: rounded corners */
+  border: 15px solid orange; 
+  border-radius: 8px; 
 }
-
 
 .pagination-dots {
   text-align: center;
@@ -490,7 +470,7 @@ text-align: center;
 }
 
 .pagination-dot.active {
-  background-color: #FF6347;
+  background-color: #ff6347;
 }
 
 .loading-text,
@@ -504,7 +484,6 @@ text-align: center;
   color: red;
 }
 
-
 .back-button {
   margin-bottom: 1rem;
   padding: 8px 16px;
@@ -515,25 +494,24 @@ text-align: center;
 }
 
 .back-button:hover {
-    background-color: #FF6347;
+  background-color: #ff6347;
   color: white;
 }
 
 .guitarTopLeft {
-  position: absolute; 
+  position: absolute;
   top: 0;
   right: 0;
   width: 450px;
   height: 350px;
-  overflow: hidden; 
+  overflow: hidden;
   border-bottom-right-radius: 151px;
   border-bottom-left-radius: 360px;
-  background: none; 
+  background: none;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 
 .guitarOnCircle {
   position: absolute;
@@ -541,11 +519,11 @@ text-align: center;
   left: 60%;
   width: 75%;
   height: 35%;
-  
+
   transform: translate(-50%, -70%) rotate(-45deg);
 }
 
 body {
-  font-family: 'Satoshi', sans-serif;
+  font-family: "Satoshi", sans-serif;
   padding: 0;
 }

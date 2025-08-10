@@ -76,7 +76,6 @@ export default function GuitarDetails() {
         <p><strong>Price:</strong> ${guitar.price}</p>
         <p className="guitar-description">{guitar.description}</p>
 
-        {/* Tabs */}
         <div className="tabs-container">
           <button
             onClick={() => setActiveTab("specs")}
@@ -92,7 +91,6 @@ export default function GuitarDetails() {
           </button>
         </div>
 
-        {/* Content */}
         {activeTab === "specs" && (
           <ul className="specs-list">
             <li><strong>Body Wood:</strong> {guitar.specs.bodyWood}</li>
