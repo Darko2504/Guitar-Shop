@@ -10,7 +10,6 @@ export default function App() {
   return (
     <ApolloProvider client={client}>
       <BrowserRouter>
-        
         <Routes>
           <Route path="/" element={<Brands />} />
           <Route path="/brand/:id" element={<BrandModels />} />
